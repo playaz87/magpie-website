@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c27d2089-9943-4566-815c-c6071b5bc661" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1oYZBl2xZxSq8bMVuWXEZ0uyD9I" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/index.html" />
+    <property name="settings.editor.selected.configurable" value="project.propDebugger" />
+  </component>
+  <component name="RunManager">
+    <configuration name="js debug" type="JavascriptDebugType" uri="http://localhost:63342/magpie-website/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c27d2089-9943-4566-815c-c6071b5bc661" name="Default Changelist" comment="" />
+      <created>1613465350951</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613465350951</updated>
+      <workItem from="1613465351983" duration="300000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1044" y="480" width="461" height="439" key="#Web_Browsers" timestamp="1613465455745">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="1044" y="480" width="461" height="439" key="#Web_Browsers/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465455745" />
+    <state x="738" y="354" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613465418906">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="738" y="354" width="1084" height="710" key="#com.intellij.execution.impl.EditConfigurationsDialog/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465418906" />
+    <state x="1063" y="452" width="424" height="520" key="FileChooserDialogImpl" timestamp="1613465415906">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="1063" y="452" width="424" height="520" key="FileChooserDialogImpl/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465415906" />
+    <state width="2536" height="475" key="GridCell.Tab.0.bottom" timestamp="1613465455933">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state width="2536" height="475" key="GridCell.Tab.0.bottom/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465455933" />
+    <state width="2536" height="475" key="GridCell.Tab.0.center" timestamp="1613465455933">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state width="2536" height="475" key="GridCell.Tab.0.center/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465455933" />
+    <state width="2536" height="475" key="GridCell.Tab.0.left" timestamp="1613465455933">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state width="2536" height="475" key="GridCell.Tab.0.left/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465455933" />
+    <state width="2536" height="475" key="GridCell.Tab.0.right" timestamp="1613465455933">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state width="2536" height="475" key="GridCell.Tab.0.right/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465455933" />
+    <state x="769" y="331" width="1022" height="737" key="SettingsEditor" timestamp="1613465650820">
+      <screen x="0" y="0" width="2560" height="1392" />
+    </state>
+    <state x="769" y="331" width="1022" height="737" key="SettingsEditor/2560.0.2560.1440/0.0.2560.1392@0.0.2560.1392" timestamp="1613465650820" />
+  </component>
+</project>
