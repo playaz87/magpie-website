@@ -2,41 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!-- SEO Meta Tags -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- SEO Meta Tags -->
     <meta name="description"
           content="Leno is a mobile app landing page template made with HTML and Bootstrap to help you present mobile apps to the online audience and convince visitors to download from the app stores">
     <meta name="author" content="Inovatik">
+
     <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
-    <meta property="og:site_name" content=""><!-- website name -->
-    <meta property="og:site" content=""><!-- website link -->
-    <meta property="og:title" content=""><!-- title shown in the actual shared post -->
-    <meta property="og:description" content=""><!-- description shown in the actual shared post -->
-    <meta property="og:image" content=""><!-- image link, make sure it's jpg -->
-    <meta property="og:url" content=""><!-- where do you want your post to link to -->
-    <meta property="og:type" content="article"><!-- Webpage Title --><title>Leno - Mobile App Landing Page
-    Template</title><!-- Styles -->
+    <meta property="og:site_name" content=""/> <!-- website name -->
+    <meta property="og:site" content=""/> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""/> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""/> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""/> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article"/>
+
+    <!-- Webpage Title -->
+    <title>Leno - Mobile App Landing Page Template</title>
+
+    <!-- Styles -->
     <script src="https://kit.fontawesome.com/8368f71a66.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&amp;display=swap"
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap"
           rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&amp;display=swap" rel="stylesheet">
-    <link href="css/css-bootstrap.css" rel="stylesheet">
-    <link href="css/css-fontawesome-all.css" rel="stylesheet">
-    <link href="css/css-swiper.css" rel="stylesheet">
-    <link href="css/css-magnific-popup.css" rel="stylesheet">
-    <link href="css/css-styles.css" rel="stylesheet"><!-- Favicon  -->
-    <link rel="icon" href="favicons/3779-images-favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--    <link href="css/fontawesome-all.css" rel="stylesheet">-->
+    <link href="css/swiper.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+
+    <!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
 
 <!-- Navigation -->
-<nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+<nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
 
         <!-- Text Logo - Use this if you don't have a graphic logo -->
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <div class="navbar-brand logo-image"><img src="images/magpie.svg" alt="alternative">Magpie</div>
+        <div class="navbar-brand logo-image"><img src="images/magpie.svg" alt="alternative"><span>Magpie</span></div>
 
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
             <span class="navbar-toggler-icon"></span>
@@ -83,7 +93,11 @@
                 </span>
         </div> <!-- end of navbar-collapse -->
     </div> <!-- end of container -->
-</nav><!-- end of navbar --><!-- end of navigation --><!-- Header -->
+</nav> <!-- end of navbar -->
+<!-- end of navigation -->
+
+
+<!-- Header -->
 <header id="header" class="header">
     <div class="container">
         <div class="row">
@@ -95,16 +109,23 @@
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-6">
-                <img class="img-fluid" src="images/images-header-smartphones.png" alt="alternative"></div>
-            <!-- end of col -->
+                <img class="img-fluid" src="images/app.png" alt="alternative">
+            </div> <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row justify-content-center">
-            <a class="btn-solid-lg" href="#your-link"><i class="fab fa-apple"></i>For Apple</a>
-            <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>For Android</a>
-            <a class="btn-solid-lg" href="#your-link"><i class="fab fas fa-desktop"></i>For Desktop</a>
+            <div class="col">
+                <a class="btn btn-solid-reg" href="#your-link"><i class="fab fa-apple fa-lg pad-right-4"></i>For
+                    Apple</a>
+                <a class="btn btn-solid-reg" href="#your-link"><i class="fab fa-google-play fa-lg pad-right-4"></i>For
+                    Android</a>
+                <a class="btn btn-solid-reg" href="#your-link"><i class="fas fa-desktop fa-lg pad-right-4"></i>For
+                    Desktop</a>
+            </div>
         </div>
     </div> <!-- end of container -->
-</header><!-- end of header --><!-- end of header --><!-- Testimonials -->
+</header> <!-- end of header -->
+<!-- end of header -->
+
 
 <!-- Features -->
 <div class="tabs">
@@ -112,30 +133,36 @@
         <div class="row">
             <div class="col-lg-12">
                 <h2 class="h2-heading">FEATURES</h2>
-                <div class="p-heading">Magpie has been designed to be a fully-featured, cross-platform web app
+                <div class="p-heading">Magpie has been designed to be a fully featured cross-platform web app.
                 </div>
             </div> <!-- end of col -->
         </div> <!-- end of row -->
-        <div class="row">
+        <div class="row justify-content-center">
+            <div class="col">
+                <!-- Tabs Links -->
+                <ul class="nav nav-tabs" id="templateTabs" role="tablist">
+                    <li class="nav-item">
+                        <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
+                           aria-controls="tab-1" aria-selected="true"><i class="fal fa-phone-laptop"></i>Web App</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
+                           aria-selected="false"><i class="fas fa-shopping-basket"></i>Buy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
+                           aria-selected="false"><i class="far fa-money-bill-alt"></i>Sell</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+            <!-- end of tabs links -->
 
-            <!-- Tabs Links -->
-            <ul class="nav nav-tabs" id="templateTabs" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
-                       aria-controls="tab-1" aria-selected="true"><img src="/images/phone-tablet-and-laptop.png"/>Web App</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
-                       aria-selected="false"><i class="fas fa-shopping-basket"></i>Buy</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" id="nav-tab-3" data-toggle="tab" href="#tab-3" role="tab" aria-controls="tab-3"
-                       aria-selected="false"><i class="far fa-money-bill-alt" style="padding-right: 4px"></i>Sell</a>
-                </li>
-            </ul><!-- end of tabs links --><!-- Tabs Content-->
+
+            <!-- Tabs Content-->
             <div class="tab-content" id="templateTabsContent">
 
-                <!-- Tab -->
+                <!-- Tab - Web App -->
                 <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="tab-1">
                     <div class="container">
                         <div class="row">
@@ -146,31 +173,34 @@
                                     <li class="media">
                                             <span class="fa-stack">
                                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-mobile-alt fa-stack-1x"></i>
+                                                <i class="far fa-compass fa-stack-1x"></i>
                                             </span>
                                         <div class="media-body">
-                                            <h4>Mobile-like Behavior</h4>
-                                            <p>Designed like a mobile app but no installation or download required</p>
+                                            <h4>Goal Setting</h4>
+                                            <p>Like any self improving process, everything starts with setting your
+                                                goals and committing to them</p>
                                         </div>
                                     </li>
                                     <li class="media">
                                             <span class="fa-stack">
                                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-bell fa-stack-1x"></i>
+                                                <i class="fas fa-code fa-stack-1x"></i>
                                             </span>
                                         <div class="media-body">
-                                            <h4>Notifications</h4>
-                                            <p>Receive notifications just as you would with a native app<sup>*</sup></p>
+                                            <h4>Visual Editor</h4>
+                                            <p>Leno provides a well designed and ergonomic visual editor for you to edit
+                                                your quick notes</p>
                                         </div>
                                     </li>
                                     <li class="media">
                                             <span class="fa-stack">
                                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-ban fa-stack-1x"></i>
+                                                <i class="far fa-gem fa-stack-1x"></i>
                                             </span>
                                         <div class="media-body">
-                                            <h4>No App Stores</h4>
-                                            <p>Faster, automatically delivered updates</p>
+                                            <h4>Refined Options</h4>
+                                            <p>Each option packaged in the app's menus is provided in order to improve
+                                                you personally</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -179,7 +209,7 @@
 
                             <!-- Image Pane -->
                             <div class="col-lg-4">
-                                <img class="img-fluid" src="images/images-features-smartphone-1.png" alt="alternative">
+                                <img class="img-fluid" src="images/features-smartphone-1.png" alt="alternative">
                             </div> <!-- end of col -->
                             <!-- end of image pane -->
 
@@ -187,34 +217,36 @@
                             <div class="col-lg-4">
                                 <ul class="list-unstyled li-space-lg">
                                     <li class="media">
-                                        <span class="fa-stack">
-                                                <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-arrow-circle-down fa-stack-1x"></i>
-                                            </span>
-                                        <div class="media-body">
-                                            <h4>Smooth Installation</h4>
-                                            <p>Easily add the app to your device's home screen (optional)</p>
-                                        </div>
-
-                                    </li>
-                                    <li class="media">
                                             <span class="fa-stack">
                                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-moon fa-stack-1x"></i>
+                                                <i class="fas fa-calendar-alt fa-stack-1x"></i>
                                             </span>
                                         <div class="media-body">
-                                            <h4>Dark Mode</h4>
-                                            <p>Will automatically follow your device's dark mode preferences</p>
+                                            <h4>Calendar Input</h4>
+                                            <p>Schedule your appointments, meetings and periodical evaluations using the
+                                                tools</p>
                                         </div>
                                     </li>
                                     <li class="media">
                                             <span class="fa-stack">
                                                 <i class="fas fa-circle fa-stack-2x"></i>
-                                                <i class="fas fa-running fa-stack-1x"></i>
+                                                <i class="fas fa-book fa-stack-1x"></i>
                                             </span>
                                         <div class="media-body">
-                                            <h4>Fast Loading</h4>
-                                            <p>Loads faster than a traditional native app</p>
+                                            <h4>Easy Reading</h4>
+                                            <p>Reading focus mode for long form articles, ebooks and other materials
+                                                with long text</p>
+                                        </div>
+                                    </li>
+                                    <li class="media">
+                                            <span class="fa-stack">
+                                                <i class="fas fa-circle fa-stack-2x"></i>
+                                                <i class="fas fa-cube fa-stack-1x"></i>
+                                            </span>
+                                        <div class="media-body">
+                                            <h4>Good Foundation</h4>
+                                            <p>Get a solid foundation for your self development efforts. Try Leno mobile
+                                                app for devices</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -233,7 +265,7 @@
 
                             <!-- Image Pane -->
                             <div class="col-lg-4">
-                                <img class="img-fluid" src="images/images-features-smartphone-2.png" alt="alternative">
+                                <img class="img-fluid" src="images/features-smartphone-2.png" alt="alternative">
                             </div> <!-- end of col -->
                             <!-- end of image pane -->
 
@@ -407,7 +439,7 @@
 
                             <!-- Image Pane -->
                             <div class="col-lg-4">
-                                <img class="img-fluid" src="images/images-features-smartphone-3.png" alt="alternative">
+                                <img class="img-fluid" src="images/features-smartphone-3.png" alt="alternative">
                             </div> <!-- end of col -->
                             <!-- end of image pane -->
 
@@ -444,8 +476,8 @@
                     <div class="video-wrapper">
                         <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs"
                            data-effect="fadeIn">
-                            <img class="img-fluid" src="images/images-video-frame.jpg" alt="alternative"><span
-                                class="video-play-button">
+                            <img class="img-fluid" src="images/video-frame.jpg" alt="alternative">
+                            <span class="video-play-button">
                                     <span></span>
                                 </span>
                         </a>
@@ -466,8 +498,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <div class="image-container">
-                    <img class="img-fluid" src="images/images-details-1.png" alt="alternative"></div>
-                <!-- end of image-container -->
+                    <img class="img-fluid" src="images/details-1.png" alt="alternative">
+                </div> <!-- end of image-container -->
             </div> <!-- end of col -->
             <div class="col-lg-6">
                 <div class="text-container">
@@ -487,11 +519,11 @@
 <!-- Lightbox -->
 <div id="details-1-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
     <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">&times;</button>
+        <button title="Close (Esc)" type="button" class="mfp-close x-button">×</button>
         <div class="col-lg-8">
             <div class="image-container">
-                <img class="img-fluid" src="images/images-details-1-lightbox.jpg" alt="alternative"></div>
-            <!-- end of image-container -->
+                <img class="img-fluid" src="images/details-1-lightbox.jpg" alt="alternative">
+            </div> <!-- end of image-container -->
         </div> <!-- end of col -->
         <div class="col-lg-4">
             <h3>Goals Setting</h3>
@@ -546,8 +578,8 @@
             </div> <!-- end of col -->
             <div class="col-lg-6">
                 <div class="image-container">
-                    <img class="img-fluid" src="images/images-details-2.png" alt="alternative"></div>
-                <!-- end of image-container -->
+                    <img class="img-fluid" src="images/details-2.png" alt="alternative">
+                </div> <!-- end of image-container -->
             </div> <!-- end of col -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
@@ -618,70 +650,80 @@
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-1.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-1.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-1.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-2.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-2.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-2.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-3.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-3.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-3.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-4.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-4.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-4.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-5.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-5.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-5.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-6.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-6.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-6.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-7.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-7.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-7.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-8.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-8.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-8.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-9.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-9.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-9.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
                             <!-- Slide -->
                             <div class="swiper-slide">
                                 <a href="images/screenshot-10.png" class="popup-link" data-effect="fadeIn">
-                                    <img class="img-fluid" src="images/images-screenshot-10.png" alt="alternative"></a>
+                                    <img class="img-fluid" src="images/screenshot-10.png" alt="alternative">
+                                </a>
                             </div>
                             <!-- end of slide -->
 
@@ -717,8 +759,8 @@
             </div> <!-- end of col -->
             <div class="col-lg-6">
                 <div class="image-container">
-                    <img class="img-fluid" src="images/images-download.png" alt="alternative"></div>
-                <!-- end of image-container -->
+                    <img class="img-fluid" src="images/download.png" alt="alternative">
+                </div> <!-- end of image-container -->
             </div> <!-- end of col -->
         </div> <!-- end of row -->
     </div> <!-- end of container -->
@@ -739,7 +781,7 @@
                 <div class="footer-col second">
                     <h6>Links</h6>
                     <ul class="list-unstyled li-space-lg p-small">
-                        <li>Important: <a href="terms.html">Terms &amp; Conditions</a>, <a href="privacy.html">Privacy
+                        <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy
                             Policy</a></li>
                         <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a
                                 href="#">Illustrations</a></li>
@@ -787,7 +829,7 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
-                <p class="p-small">Copyright &copy; <a href="inovatik.html">Template by Inovatik</a></p>
+                <p class="p-small">Copyright © <a href="https://inovatik.com">Template by Inovatik</a></p>
             </div> <!-- end of col -->
         </div> <!-- enf of row -->
     </div> <!-- end of container -->
@@ -796,11 +838,12 @@
 
 
 <!-- Scripts -->
-<script src="js/2897-js-jquery.min.js"></script><!-- jQuery for Bootstrap's JavaScript plugins -->
-<script src="js/2316-js-bootstrap.min.js"></script><!-- Bootstrap framework -->
-<script src="js/4023-js-jquery.easing.min.js"></script><!-- jQuery Easing for smooth scrolling between anchors -->
-<script src="js/387-js-swiper.min.js"></script><!-- Swiper for image and text sliders -->
-<script src="js/6688-js-jquery.magnific-popup.js"></script><!-- Magnific Popup for lightboxes -->
-<script src="js/5869-js-morphext.min.js"></script><!-- Morphtext rotating text in the header -->
-<script src="js/425-js-scripts.js"></script><!-- Custom scripts --></body>
+<script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+<script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+<script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+<script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+<script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+<script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
+<script src="js/scripts.js"></script> <!-- Custom scripts -->
+</body>
 </html>
