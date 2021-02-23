@@ -2,26 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c27d2089-9943-4566-815c-c6071b5bc661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/phone-tablet-and-laptop.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/images/devices.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fontawesome-all.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jquery.easing.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jquery.magnific-popup.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/magnific-popup.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/morphext.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/scripts.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css-styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css-styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/images/phone-tablet-and-laptop.png" beforeDir="false" afterPath="$PROJECT_DIR$/images/phone-tablet-and-laptop.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-brands-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-regular-400.woff2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/webfonts/fa-solid-900.woff2" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,11 +73,23 @@
       <updated>1613465350951</updated>
       <workItem from="1613465351983" duration="300000" />
       <workItem from="1613708469666" duration="4186000" />
-      <workItem from="1613713357072" duration="7892000" />
+      <workItem from="1613713357072" duration="11635000" />
     </task>
+    <task id="LOCAL-00001" summary="Started again with better template copy">
+      <created>1613977054102</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1613977054102</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Started again with better template copy" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started again with better template copy" />
   </component>
 </project>

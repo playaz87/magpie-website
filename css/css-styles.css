@@ -757,6 +757,7 @@ input[type='checkbox'] {
 	font: 700 1rem/1.75rem "Montserrat", sans-serif;
 	text-decoration: none;
 	transition: all 0.2s ease;
+	white-space: nowrap;
 }
 
 .tabs .nav-link.active,
@@ -768,7 +769,12 @@ input[type='checkbox'] {
 
 .tabs .nav-link .fas {
 	margin-right: 0.375rem;
-	font-size: 1rem;
+	font-size: 2rem;
+}
+
+.tabs .nav-link .far {
+	margin-right: 0.375rem;
+	font-size: 2rem;
 }
 
 .tabs .tab-content {
