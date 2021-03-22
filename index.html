@@ -26,7 +26,7 @@
     <link href="css/css-styles.css" rel="stylesheet"><!-- Favicon  -->
     <link rel="icon" href="favicons/3779-images-favicon.png">
 </head>
-<body data-spy="scroll" data-target=".fixed-top">
+<body data-spy="scroll" data-target=".fixed-top" id="navbar">
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
@@ -36,7 +36,11 @@
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <div class="navbar-brand logo-image"><img src="images/magpie.svg" alt="alternative">Magpie</div>
+        <div class="navbar-brand logo-image"
+             onclick="document.getElementById('navbar').scrollIntoView({behavior: 'smooth'})">
+            <img src="images/magpie.svg" alt="alternative">
+            <img src="images/magpie-name-logo-small.png">
+        </div>
 
         <button class="navbar-toggler p-0 border-0" type="button" data-toggle="offcanvas">
             <span class="navbar-toggler-icon"></span>
@@ -45,26 +49,24 @@
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="article.html">Article <span
-                            class="sr-only">(current)</span></a>
+                    <a class="nav-link page-scroll"
+                       onclick="{document.getElementById('features').scrollIntoView({behavior: 'smooth'})}">Features</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="features.html">Features</a>
+                    <a class="nav-link page-scroll"
+                       onclick="{document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})}">Pricing</a>
                 </li>
+                <!--                <li class="nav-item dropdown">-->
+                <!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"-->
+                <!--                       aria-haspopup="true" aria-expanded="false">Drop</a>-->
+                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown01">-->
+                <!--                        <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>-->
+                <!--                        <div class="dropdown-divider"></div>-->
+                <!--                        <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>-->
+                <!--                    </div>-->
+                <!--                </li>-->
                 <li class="nav-item">
-                    <a class="nav-link page-scroll" href="pricing.html">Pricing</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">Drop</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown01">
-                        <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll" href="contact.html">Contact</a>
+                    <a class="nav-link page-scroll" onclick="{document.getElementById('footer').scrollIntoView({behavior: 'smooth'})}">Contact</a>
                 </li>
             </ul>
             <span class="nav-item social-icons">
@@ -95,7 +97,7 @@
                 </div> <!-- end of text-container -->
             </div> <!-- end of col -->
             <div class="col-lg-6">
-                <img class="img-fluid" src="images/images-header-smartphones.png" alt="alternative"></div>
+                <img class="img-fluid" src="images/screens-combined2.png" alt="alternative"></div>
             <!-- end of col -->
         </div> <!-- end of row -->
         <div class="row justify-content-center">
@@ -107,7 +109,7 @@
 </header><!-- end of header --><!-- end of header --><!-- Testimonials -->
 
 <!-- Features -->
-<div class="tabs">
+<div class="tabs" id="features">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -122,7 +124,8 @@
             <ul class="nav nav-tabs" id="templateTabs" role="tablist">
                 <li class="nav-item" style="min-width: 150px;">
                     <a class="nav-link active" id="nav-tab-1" data-toggle="tab" href="#tab-1" role="tab"
-                       aria-controls="tab-1" aria-selected="true"><img src="./images/devices.svg" class="fas" style="padding-right: 4px; max-width: 41px; font-size: 2rem"/><span>Web App</span></a>
+                       aria-controls="tab-1" aria-selected="true"><img src="./images/devices.svg" class="fas"
+                                                                       style="padding-right: 4px; max-width: 41px; font-size: 2rem"/><span>Web App</span></a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="nav-tab-2" data-toggle="tab" href="#tab-2" role="tab" aria-controls="tab-2"
@@ -239,8 +242,8 @@
 
                             <!-- Text And Icon Cards Area -->
                             <div class="col-lg-8">
-<!--                                <h3>Localised Results</h3>-->
-<!--                                <p class="sub-heading">Search or browse items near you or easily switch to browse nationwide</p>-->
+                                <!--                                <h3>Localised Results</h3>-->
+                                <!--                                <p class="sub-heading">Search or browse items near you or easily switch to browse nationwide</p>-->
                                 <ul class="list-unstyled li-space-lg first">
                                     <li class="media">
                                             <span class="fa-stack">
@@ -269,7 +272,8 @@
                                             </span>
                                         <div class="media-body">
                                             <h4>In-app Messaging</h4>
-                                            <p>Find something you like? Contact the seller directly from within the app</p>
+                                            <p>Find something you like? Contact the seller directly from within the
+                                                app</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -281,7 +285,8 @@
                                             </span>
                                         <div class="media-body">
                                             <h4>Feedback</h4>
-                                            <p>Check the reputation of sellers and see what other people have been saying about them</p>
+                                            <p>Check the reputation of sellers and see what other people have been
+                                                saying about them</p>
                                         </div>
                                     </li>
                                 </ul>
@@ -355,7 +360,8 @@
                                             </span>
                                         <div class="media-body">
                                             <h4>Feedback</h4>
-                                            <p>Check the reputation of potential buyers and see what other people have been saying about them</p>
+                                            <p>Check the reputation of potential buyers and see what other people have
+                                                been saying about them</p>
                                         </div>
                                     </li>
                                     <li class="media">
@@ -409,173 +415,146 @@
 
 
 <!-- Video -->
-<div class="basic-1">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h2 class="h2-heading">PREVIEW</h2>
-                <div class="p-heading">It's time to target the right customers for your business with the help of Leno's
-                    patented user tracking and segmentation technology
-                </div>
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-        <div class="row">
-            <div class="col-lg-12">
+<div style="display: none">
+    <!--<div class="basic-1">-->
+    <!--    <div class="container">-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-lg-12">-->
+    <!--                <h2 class="h2-heading">PREVIEW</h2>-->
+    <!--                <div class="p-heading">It's time to target the right customers for your business with the help of Leno's-->
+    <!--                    patented user tracking and segmentation technology-->
+    <!--                </div>-->
+    <!--            </div> &lt;!&ndash; end of col &ndash;&gt;-->
+    <!--        </div> &lt;!&ndash; end of row &ndash;&gt;-->
+    <!--        <div class="row">-->
+    <!--            <div class="col-lg-12">-->
 
-                <!-- Video Preview -->
-                <div class="image-container">
-                    <div class="video-wrapper">
-                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs"
-                           data-effect="fadeIn">
-                            <img class="img-fluid" src="images/images-video-frame.jpg" alt="alternative"><span
-                                class="video-play-button">
-                                    <span></span>
-                                </span>
-                        </a>
-                    </div> <!-- end of video-wrapper -->
-                </div> <!-- end of image-container -->
-                <!-- end of video preview -->
+    <!--                &lt;!&ndash; Video Preview &ndash;&gt;-->
+    <!--                <div class="image-container">-->
+    <!--                    <div class="video-wrapper">-->
+    <!--                        <a class="popup-youtube" href="https://www.youtube.com/watch?v=fLCjQJCekTs"-->
+    <!--                           data-effect="fadeIn">-->
+    <!--                            <img class="img-fluid" src="images/images-video-frame.jpg" alt="alternative"><span-->
+    <!--                                class="video-play-button">-->
+    <!--                                    <span></span>-->
+    <!--                                </span>-->
+    <!--                        </a>-->
+    <!--                    </div> &lt;!&ndash; end of video-wrapper &ndash;&gt;-->
+    <!--                </div> &lt;!&ndash; end of image-container &ndash;&gt;-->
+    <!--                &lt;!&ndash; end of video preview &ndash;&gt;-->
 
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of basic-1 -->
+    <!--            </div> &lt;!&ndash; end of col &ndash;&gt;-->
+    <!--        </div> &lt;!&ndash; end of row &ndash;&gt;-->
+    <!--    </div> &lt;!&ndash; end of container &ndash;&gt;-->
+    <!--</div> &lt;!&ndash; end of basic-1 &ndash;&gt;-->
+</div>
+
 <!-- end of video -->
 
 
-<!-- Details 1 -->
-<div class="basic-2 bg-dark-blue">
+<div style="display: none">
+    <!-- Details 1 Lightbox -->
+    <!-- Lightbox -->
+    <!--<div id="details-1-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">-->
+    <!--    <div class="row">-->
+    <!--        <button title="Close (Esc)" type="button" class="mfp-close x-button">&times;</button>-->
+    <!--        <div class="col-lg-8">-->
+    <!--            <div class="image-container">-->
+    <!--                <img class="img-fluid" src="images/images-details-1-lightbox.jpg" alt="alternative"></div>-->
+    <!--            &lt;!&ndash; end of image-container &ndash;&gt;-->
+    <!--        </div> &lt;!&ndash; end of col &ndash;&gt;-->
+    <!--        <div class="col-lg-4">-->
+    <!--            <h3>Goals Setting</h3>-->
+    <!--            <hr>-->
+    <!--            <p>The app can easily help you track your personal development evolution if you take the time to set it-->
+    <!--                up.</p>-->
+    <!--            <h4>User Feedback</h4>-->
+    <!--            <p>This is a great app which can help you save time and make your live easier. And it will help improve your-->
+    <!--                productivity.</p>-->
+    <!--            <ul class="list-unstyled li-space-lg">-->
+    <!--                <li class="media">-->
+    <!--                    <i class="fas fa-check"></i>-->
+    <!--                    <div class="media-body">Splash screen panel</div>-->
+    <!--                </li>-->
+    <!--                <li class="media">-->
+    <!--                    <i class="fas fa-check"></i>-->
+    <!--                    <div class="media-body">Statistics graph report</div>-->
+    <!--                </li>-->
+    <!--                <li class="media">-->
+    <!--                    <i class="fas fa-check"></i>-->
+    <!--                    <div class="media-body">Events calendar layout</div>-->
+    <!--                </li>-->
+    <!--                <li class="media">-->
+    <!--                    <i class="fas fa-check"></i>-->
+    <!--                    <div class="media-body">Location details screen</div>-->
+    <!--                </li>-->
+    <!--                <li class="media">-->
+    <!--                    <i class="fas fa-check"></i>-->
+    <!--                    <div class="media-body">Onboarding steps interface</div>-->
+    <!--                </li>-->
+    <!--            </ul>-->
+    <!--            <a class="btn-solid-reg mfp-close page-scroll" href="#header">Download</a>-->
+    <!--            <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>-->
+    <!--        </div> &lt;!&ndash; end of col &ndash;&gt;-->
+    <!--    </div> &lt;!&ndash; end of row &ndash;&gt;-->
+    <!--</div> &lt;!&ndash; end of lightbox-basic &ndash;&gt;-->
+    <!-- end of lightbox -->
+    <!-- end of details 1 lightbox -->
+</div>
+
+
+<!-- Pricing -->
+<div class="basic-3 bg-dark-blue tabs" id="pricing">
     <div class="container">
         <div class="row">
-            <div class="col-lg-6">
-                <div class="image-container">
-                    <img class="img-fluid" src="images/images-details-1.png" alt="alternative"></div>
-                <!-- end of image-container -->
-            </div> <!-- end of col -->
-            <div class="col-lg-6">
-                <div class="text-container">
-                    <h2>Start using Leno today and set your long term goals</h2>
-                    <p>Leno can easily help you track your personal development evolution if you take the time to
-                        properly setup your goals at the beginning of the training process. Check it out</p>
-                    <a class="btn-solid-reg popup-with-move-anim" href="#details-1-lightbox">Lightbox</a>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
-</div> <!-- end of basic-2 -->
-<!-- end of details 1 -->
-
-
-<!-- Details 1 Lightbox -->
-<!-- Lightbox -->
-<div id="details-1-lightbox" class="lightbox-basic zoom-anim-dialog mfp-hide">
-    <div class="row">
-        <button title="Close (Esc)" type="button" class="mfp-close x-button">&times;</button>
-        <div class="col-lg-8">
-            <div class="image-container">
-                <img class="img-fluid" src="images/images-details-1-lightbox.jpg" alt="alternative"></div>
-            <!-- end of image-container -->
-        </div> <!-- end of col -->
-        <div class="col-lg-4">
-            <h3>Goals Setting</h3>
-            <hr>
-            <p>The app can easily help you track your personal development evolution if you take the time to set it
-                up.</p>
-            <h4>User Feedback</h4>
-            <p>This is a great app which can help you save time and make your live easier. And it will help improve your
-                productivity.</p>
-            <ul class="list-unstyled li-space-lg">
-                <li class="media">
-                    <i class="fas fa-check"></i>
-                    <div class="media-body">Splash screen panel</div>
-                </li>
-                <li class="media">
-                    <i class="fas fa-check"></i>
-                    <div class="media-body">Statistics graph report</div>
-                </li>
-                <li class="media">
-                    <i class="fas fa-check"></i>
-                    <div class="media-body">Events calendar layout</div>
-                </li>
-                <li class="media">
-                    <i class="fas fa-check"></i>
-                    <div class="media-body">Location details screen</div>
-                </li>
-                <li class="media">
-                    <i class="fas fa-check"></i>
-                    <div class="media-body">Onboarding steps interface</div>
-                </li>
-            </ul>
-            <a class="btn-solid-reg mfp-close page-scroll" href="#header">Download</a>
-            <button class="btn-outline-reg mfp-close as-button" type="button">Back</button>
+            <div class="col-lg-12">
+                <h2 class="h2-heading">PRICING</h2>
+            </div>
         </div> <!-- end of col -->
     </div> <!-- end of row -->
-</div> <!-- end of lightbox-basic -->
-<!-- end of lightbox -->
-<!-- end of details 1 lightbox -->
-
-
-<!-- Details 2 -->
-<div class="basic-3 bg-dark-blue">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <div class="text-container">
-                    <h2>The calendar feature helps you schedule tasks</h2>
-                    <p>The calendar input function enables the user to setup training, meditation and relaxation
-                        sessions with ease. Just open the feature and start setting your time</p>
-                    <a class="btn-solid-reg popup-with-move-anim" href="#details-1-lightbox">Lightbox</a>
-                </div> <!-- end of text-container -->
-            </div> <!-- end of col -->
-            <div class="col-lg-6">
-                <div class="image-container">
-                    <img class="img-fluid" src="images/images-details-2.png" alt="alternative"></div>
-                <!-- end of image-container -->
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
-    </div> <!-- end of container -->
+    <div class="row justify-content-center">
+        <div class="col-4 justify-content-center align-center">
+            <h2>iOS</h2>
+            <i class="fab fa-apple large-icon"></i>
+            <!--                <div class="counter" id="counter">-->
+            <!--                    <div class="cell">-->
+            <!--                        <div class="counter-value number-count" data-count="00">250</div>-->
+            <!--                    </div>-->
+            <!--                </div>-->
+        </div>
+        <div class="col-4 justify-content-center align-center">
+            <h2>Android</h2>
+            <i class="fab fa-google-play large-icon"></i>
+        </div>
+        <div class="col-4 justify-content-center align-center">
+            <h2>Desktop</h2>
+            <i class="fab fas fa-desktop large-icon"></i>
+        </div>
+    </div> <!-- end of row -->
+</div> <!-- end of container -->
 </div> <!-- end of basic-3 -->
 <!-- end of details 2 -->
 
 
 <!-- Statistics -->
 <div class="counter">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-12">
+    <div class="">
 
-                <!-- Counter -->
-                <div id="counter">
-                    <div class="cell">
-                        <i class="fas fa-users"></i>
-                        <div class="counter-value number-count" data-count="231">1</div>
-                        <p class="counter-info p-small">Happy Customers</p>
-                    </div>
-                    <div class="cell">
-                        <i class="fas fa-code green"></i>
-                        <div class="counter-value number-count" data-count="385">1</div>
-                        <p class="counter-info p-small">Good Reviews</p>
-                    </div>
-                    <div class="cell">
-                        <i class="fas fa-cog red"></i>
-                        <div class="counter-value number-count" data-count="159">1</div>
-                        <p class="counter-info p-small">Press Articles</p>
-                    </div>
-                    <div class="cell">
-                        <i class="fas fa-comments yellow"></i>
-                        <div class="counter-value number-count" data-count="127">1</div>
-                        <p class="counter-info p-small">Solved Issues</p>
-                    </div>
-                    <div class="cell">
-                        <i class="fas fa-rocket blue"></i>
-                        <div class="counter-value number-count" data-count="211">1</div>
-                        <p class="counter-info p-small">Future Updates</p>
-                    </div>
+        <!-- Counter -->
+        <div id="counter">
+            <div class="row justify-content-center">
+                <div class="col-4 cell">
+                    <div class="counter-value number-count" data-count="00">250</div>
                 </div>
-                <!-- end of counter -->
-
-            </div> <!-- end of col -->
-        </div> <!-- end of row -->
+                <div class="col-4 cell">
+                    <div class="counter-value number-count" data-count="00">250</div>
+                </div>
+                <div class="col-4 cell">
+                    <div class="counter-value number-count" data-count="00">250</div>
+                </div>
+            </div>
+        </div>
+        <!-- end of counter -->
     </div> <!-- end of container -->
 </div> <!-- end of counter -->
 <!-- end of statistics -->
@@ -710,7 +689,7 @@
 
 
 <!-- Footer -->
-<div class="footer bg-dark-blue">
+<div class="footer bg-dark-blue" id="footer">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
