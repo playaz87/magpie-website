@@ -1,0 +1,19 @@
+.platform-container {
+    background: #eff1f15e;
+    margin: auto;
+    padding: 20px;
+}
+
+.segment {
+}
+
+.platform-info {
+    padding: 20px;
+}
+
+.app-frame {
+    max-width: 350px;
+    height: 700px;
+    display: block;
+    margin: auto;
+}
