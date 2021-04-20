@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c27d2089-9943-4566-815c-c6071b5bc661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/css/for-platform.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/for-platform.html" afterDir="false" />
+    <list default="true" id="c27d2089-9943-4566-815c-c6071b5bc661" name="Default Changelist" comment="Started for-platform.html">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/for-platform.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/for-platform.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/for-platform.html" beforeDir="false" afterPath="$PROJECT_DIR$/for-platform.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,8 @@
       <workItem from="1615506254849" duration="2691000" />
       <workItem from="1615965202458" duration="4818000" />
       <workItem from="1616561914555" duration="453000" />
-      <workItem from="1617947548619" duration="4209000" />
+      <workItem from="1617947548619" duration="4471000" />
+      <workItem from="1618899518256" duration="3224000" />
     </task>
     <task id="LOCAL-00001" summary="Started again with better template copy">
       <created>1613977054102</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1616396584179</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Started for-platform.html">
+      <created>1617952081909</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617952081909</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +125,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Started again with better template copy" />
     <MESSAGE value="More progress" />
-    <option name="LAST_COMMIT_MESSAGE" value="More progress" />
+    <MESSAGE value="Started for-platform.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="Started for-platform.html" />
   </component>
 </project>

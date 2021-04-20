@@ -1,5 +1,5 @@
 .platform-container {
-    background: #eff1f15e;
+    background: #9aa2a25e;
     margin: auto;
     padding: 20px;
 }
@@ -16,4 +16,18 @@
     height: 700px;
     display: block;
     margin: auto;
+}
+
+.style-blue {
+    color: #00c9db;
+}
+
+.platform-info-content {
+    font-size: 1.2rem;
+    color: #FFF8DC;
+    text-align: center;
+}
+
+.astrix {
+    font-size: 0.7rem;
 }

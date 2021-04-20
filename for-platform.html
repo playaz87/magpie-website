@@ -17,8 +17,8 @@
         <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Leno</a> -->
 
         <!-- Image Logo -->
-        <div class="navbar-brand logo-image"
-             onclick="document.getElementById('navbar').scrollIntoView({behavior: 'smooth'})">
+        <div class="navbar-brand logo-image" style="cursor: pointer"
+             onclick="window.location = 'index.html'">
             <img src="images/magpie.svg" alt="alternative">
             <img src="images/magpie-name-logo-small.png">
         </div>
@@ -29,23 +29,6 @@
 
         <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
             <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                    <a class="nav-link page-scroll"
-                       onclick="{document.getElementById('features').scrollIntoView({behavior: 'smooth'})}">Features</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link page-scroll"
-                       onclick="{document.getElementById('pricing').scrollIntoView({behavior: 'smooth'})}">Pricing</a>
-                </li>
-                <!--                <li class="nav-item dropdown">-->
-                <!--                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"-->
-                <!--                       aria-haspopup="true" aria-expanded="false">Drop</a>-->
-                <!--                    <div class="dropdown-menu" aria-labelledby="dropdown01">-->
-                <!--                        <a class="dropdown-item page-scroll" href="terms.html">Terms Conditions</a>-->
-                <!--                        <div class="dropdown-divider"></div>-->
-                <!--                        <a class="dropdown-item page-scroll" href="privacy.html">Privacy Policy</a>-->
-                <!--                    </div>-->
-                <!--                </li>-->
                 <li class="nav-item">
                     <a class="nav-link page-scroll"
                        onclick="{document.getElementById('footer').scrollIntoView({behavior: 'smooth'})}">Contact</a>
@@ -92,8 +75,30 @@
         </div>
         <div class="row">
             <div class="col-6">
-                <div class="platform-info" id="ios">ios</div>
-                <div class="platform-info" id="android">android</div>
+                <div class="platform-info" id="ios">
+                    <h2 class="style-blue">iOS</h2>
+                    <div class="platform-info-content">
+                        Magpie can be used directly in your mac or phone's* browser. Click below to get started today!
+                        <div>
+                            <button type="button" class="btn" onclick="window.location = 'https://magpie-market.web.app' ">
+                                <img height="60px" src="images/magpie.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="astrix">*iOS does not currently support push notifications for web apps.</div>
+                </div>
+                <div class="platform-info" id="android">
+                    <h2 class="style-blue">Android</h2>
+                    <div class="platform-info-content">
+                        Magpie can be used directly in your phone's* browser. Google's Chrome browser is recommended*. Click below to get started today!
+                        <div>
+                            <button type="button" class="btn" onclick="window.location = 'https://magpie-market.web.app' ">
+                                <img height="60px" src="images/magpie.svg">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="astrix">*Some features may not work on other browsers</div>
+                </div>
                 <div class="platform-info" id="desktop">desktop</div>
             </div>
             <div class="col-6">
